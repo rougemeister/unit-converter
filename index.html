@@ -8,26 +8,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Unit Converter</title>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <main class="container">
         <header>
             <h1 class="title">Metric/Imperial Unit Conversion</h1>
             <input type="text" id="number-input" placeholder="30">
-            <button class="btn">Convert</button>
+            <button id="convert-btn" class="btn">Convert</button>
         </header>
         <div>
             <div class="unit-wrapper">
                 <h3>Length (Meter/Feet)</h3>
-                <p></p>
+                <p id="length-el"></p>
             </div>
             <div class="unit-wrapper">
                 <h3>Volume (Litres/Gallons)</h3>
-                <p></p>
+                <p id="volume-el"></p>
             </div>
             <div class="unit-wrapper">
-                <h3>Weight (Kilograms/Pounds)</h3>
-                <p></p>
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass-el"></p>
             </div>
         </div>
     </main>
