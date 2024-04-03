@@ -31,7 +31,7 @@ convertBtn.addEventListener('click', ()=>{
 
 
 function metersToFeetConversion (unit) {
-    return (unit * 3.28084.toFixed(3));
+    return (unit * 3.28084).toFixed(3);
 }
 
 function feetToMetersConversion (unit){
